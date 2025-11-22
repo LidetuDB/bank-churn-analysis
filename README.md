@@ -48,7 +48,7 @@ Customers aged 40-60 show significantly higher churn rates. The average age of c
 sns.kdeplot(data=df[df['Exited'] == 0]['Age'], label='Retained', fill=True)
 sns.kdeplot(data=df[df['Exited'] == 1]['Age'], label='Churned', fill=True)
 ```
-![Age Distribution](https://raw.githubusercontent.com/LidetuDB/bank-churn-analysis/main/images/age_distribution.png)
+![Age Distribution](https://raw.githubusercontent.com/LidetuDB/bank-churn-analysis/main/images/age_distribution-1.png)
 
 
 ### 2. Geographic Disparity
