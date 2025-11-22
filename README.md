@@ -48,12 +48,16 @@ Customers aged 40-60 show significantly higher churn rates. The average age of c
 sns.kdeplot(data=df[df['Exited'] == 0]['Age'], label='Retained', fill=True)
 sns.kdeplot(data=df[df['Exited'] == 1]['Age'], label='Churned', fill=True)
 ```
+![Age Distribution](https://raw.githubusercontent.com/LidetuDB/bank-churn-analysis/main/images/age_distribution.png)
+
 
 ### 2. Geographic Disparity
 
 German customers churn at twice the rate of those in France and Spain:
 - France & Spain: ~16% churn rate
 - Germany: ~32% churn rate
+
+ ![Geography Churn](https://raw.githubusercontent.com/LidetuDB/bank-churn-analysis/main/images/geography_churn.png) 
 
 This suggests operational or competitive issues specific to the German market.
 
@@ -63,6 +67,8 @@ More products doesn't mean better retention:
 - 2 Products: Lowest churn (optimal)
 - 3 Products: 82% churn rate
 - 4 Products: 100% churn rate
+
+ ![Product Churn](https://raw.githubusercontent.com/LidetuDB/bank-churn-analysis/main/images/product_churn.png) 
 
 Customers holding 3+ products are highly likely to leave, indicating these bundles may be too complex or expensive.
 
