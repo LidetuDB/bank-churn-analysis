@@ -71,3 +71,32 @@ More products doesn't mean better retention:
  ![Product Churn](https://raw.githubusercontent.com/LidetuDB/bank-churn-analysis/main/images/product_churn.png) 
 
 Customers holding 3+ products are highly likely to leave, indicating these bundles may be too complex or expensive.
+
+Recommendations
+Based on these findings, the following actions are recommended:
+1. Target the 40-60 Demographic
+
+Launch a "Senior Loyalty" program with exclusive benefits
+Offer retirement planning advisory services
+Provide higher yield savings accounts to retain this mature demographic
+
+2. German Market Audit
+
+Conduct targeted surveys specifically for German account holders
+Investigate local competitor offerings and pricing
+Consider region-specific retention bonuses or incentives
+Review service quality and operational issues in German branches
+
+3. Restructure Product Bundles
+
+The 3-product and 4-product accounts show critical churn rates
+Review and simplify the fee structure for multi-product accounts
+Reduce complexity for customers holding multiple products
+Consider consolidating or redesigning these bundles to improve user experience
+
+4. Re-engage Inactive Users
+
+Inactive members (IsActiveMember=0) represent high-risk customers
+Implement automated email campaigns with personalized messaging
+Offer small financial incentives to encourage login or transaction activity
+Create targeted "We miss you" campaigns with clear value propositions
